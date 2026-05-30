@@ -55,11 +55,11 @@ const AddTask = ({ onAdd }) => {
           checked={importante}
           onChange={(e) => setImportante(e.target.checked)}
         />
-        <label htmlFor="importante">Importante</label>
+        <label htmlFor="importante">Importante?</label>
       </div>
       
       <button type="submit" className="btn btn-block success">
-        Add New Task
+        Adicionar nova tarefa
       </button>
       
       <Modal
